@@ -3,7 +3,6 @@
 namespace GameStoreAPI;
 
 public record GameDto(
-    // Test
     int Id,
 
     string Name,
