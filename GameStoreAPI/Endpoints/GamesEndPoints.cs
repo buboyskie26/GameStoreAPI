@@ -44,6 +44,7 @@ public static class GamesEndPoints
 
         group.MapGet("/", async (IGamesRepository repository) =>
         {
+            var test = string.Empty;
 
             return Results.Ok((await repository.GetAllAsync()));
 
