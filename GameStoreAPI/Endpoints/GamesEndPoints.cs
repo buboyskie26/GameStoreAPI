@@ -7,7 +7,7 @@ namespace GameStoreAPI.Endpoints;
 public static class GamesEndPoints
 {
     const string GET_GAME_ENDPOINTNAME = "GetGame";
-    // Changed here. Nice
+    // Changed here. Nicea
     static List<Game> games = new()
     {
         new Game()
